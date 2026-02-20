@@ -260,53 +260,47 @@
         </div>
       </section>
 
-      <section id="contact" class="section contact-section">
+            <section id="contact" class="section contact-section">
         <div class="container contact-wrap reveal">
           <div class="contact-copy">
             <p class="kicker">Contact</p>
             <h2>Request a Confidential and Explicit Consultation</h2>
-            <p>Send your details below. We will reply as soon as possible.</p>
+            <p>
+              Submit your details below for confidential communication and explicit project discussion.
+            </p>
             <p class="badge">Replies within 2 hours</p>
-
-            <div class="socials">
-              <a href="https://www.instagram.com/ibdesk/" target="_blank" rel="noreferrer">
-                Instagram DM: @ibdesk
-              </a>
-              <a href="mailto:ibdesk685@gmail.com">
-                Email: ibdesk685@gmail.com
-              </a>
-            </div>
-
-            <form class="contact-form" action="https://formsubmit.co/a2b35297370185a78fe79190d89747ed" method="POST">
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next" value="https://ambition536.github.io/thankyou.html" />
-              <input type="hidden" name="_subject" value="New inquiry from The IB Desk site" />
-              <input type="hidden" name="_template" value="table" />
-
-              <label>
-                Name:
-                <input type="text" name="name" required />
-              </label>
-
-              <br /><br />
-
-              <label>
-                Email:
-                <input type="email" name="email" required />
-              </label>
-
-              <br /><br />
-
-              <label>
-                Message:
-                <textarea name="message" rows="6" required></textarea>
-              </label>
-
-              <br /><br />
-
-              <button class="btn" type="submit">Send Message</button>
-            </form>
           </div>
+      
+          <form action="https://formsubmit.co/a2b35297370185a78fe79190d89747ed" method="POST" class="contact-form">
+      
+            <input type="hidden" name="_subject" value="New inquiry from The IB Desk site">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://ambition536.github.io/thankyou.html">
+            <input type="hidden" name="_captcha" value="false">
+      
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" name="name" required>
+            </div>
+      
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="email" required>
+            </div>
+      
+            <div class="form-group">
+              <label>What do you need help with?</label>
+              <input type="text" name="topic" placeholder="IA / EE / TOK / Editing / Other" required>
+            </div>
+      
+            <div class="form-group">
+              <label>Message</label>
+              <textarea name="message" rows="5" required></textarea>
+            </div>
+      
+            <button type="submit" class="btn">Request Consultation</button>
+      
+          </form>
         </div>
       </section>
     </main>
